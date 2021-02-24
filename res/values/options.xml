@@ -27,9 +27,9 @@
         <item>0</item>
     </string-array>
     <string-array name="error_meter_display_names">
-        <item>Always</item>
-        <item>Replay Only</item>
-        <item>Disable</item>
+        <item>Always Displayed</item>
+        <item>Only During Replays</item>
+        <item>Disabled</item>
     </string-array>
     <string-array name="error_meter_display_values">
         <item>1</item>
@@ -46,8 +46,8 @@
     </string-array>
     <string-array name="metronome_switch_names">
         <item>Off</item>
-        <item>NightCore Mode Only</item>
-        <item>Always</item>
+        <item>Only With NightCore Mod</item>
+        <item>Always On</item>
     </string-array>
     <string-array name="metronome_switch_values">
         <item>0</item>
@@ -82,38 +82,38 @@
 
     <string name="opt_bg_title">Background quality</string>
 
-    <string name="opt_bg_summary">Reduce the quality of the background images to increase performance</string>
+    <string name="opt_bg_summary">Reduce the quality of the background images, may increase performance</string>
 
     <string name="opt_skin_title">Beatmap skins</string>
-    <string name="opt_skin_summary">Load beatmap-specific skin if available</string>
+    <string name="opt_skin_summary">Load beatmap-specific skins if available</string>
 
-    <string name="opt_sound_title">Beatmap sounds</string>
-    <string name="opt_sound_summary">Load beatmap-specific sound if available</string>
+    <string name="opt_sound_title">Beatmap hitsounds</string>
+    <string name="opt_sound_summary">Load beatmap-specific hitsounds if available</string>
 
     <string name="opt_largeimages_title">Countdown</string>
-    <string name="opt_largeimages_summary">Show countdown at the beginning of a map that has it enabled</string>
+    <string name="opt_largeimages_summary">Show a countdown at the beginning of maps with it enabled</string>
 
     <string name="opt_sound_volume_title">Hit sound volume</string>
-    <string name="opt_sound_volume_summary">Volume of hit sounds (0-100), need to restart to take effect</string>
+    <string name="opt_sound_volume_summary">Volume of hit sounds (0-100), requires a relaunch to take effect</string>
 
     <string name="opt_bgm_volume_title">BGM volume</string>
     <string name="opt_bgm_volume_summary">Volume of the background music (0-100)</string>
 
     <string name="opt_offset_title">Global offset</string>
-    <string name="opt_offset_summary">Music offset in ms (positive values mean earlier)</string>
+    <string name="opt_offset_summary">Music offset in miliseconds (ms) (positive values will make the music play earlier)</string>
 
     <string name="opt_special">Special</string>
     <string name="opt_taiko_title">Load T-Aiko! songs</string>
     <string name="opt_taiko_summary">Load songs also from T-Aiko song directory</string>
 
     <string name="opt_deleteosz_title">Delete .osz</string>
-    <string name="opt_deleteosz_summary">Delete .osz files after importing</string>
+    <string name="opt_deleteosz_summary">Delete .osz files automatically after they are imported</string>
 
     <string name="opt_directory_title">Beatmap location</string>
-    <string name="opt_directory_summary">Path to directory containing beatmaps (default: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_directory_summary">Directory to the location of beatmaps (default: /mnt/sdcard/osu!droid/Songs)</string>
 
-    <string name="opt_clear_title">Library cache</string>
-    <string name="opt_clear_summary">Forced clear of library cache</string>
+    <string name="opt_clear_title">Clear library cache</string>
+    <string name="opt_clear_summary">Force-clear the library cache, will reloead the entire beatmap library</string>
 
     <string name="opt_doublesound_title">Double hit sounds</string>
     <string name="opt_doublesound_summary">Make hit sounds closer to original osu!</string>
@@ -121,28 +121,28 @@
     <string name="opt_sound">Sound</string>
 
     <string name="opt_fps_title">FPS</string>
-    <string name="opt_fps_summary">Display (frames per second) during gameplay</string>
+    <string name="opt_fps_summary">Display frames per second during gameplay</string>
 
     <string name="opt_skipoffset_title">Skip offset</string>
     <string name="opt_skipoffset_summary">This offset will be added when you press the &quot;Skip&quot; button. Enter -1 for auto offset</string>
 
-    <string name="opt_lowtextures_title">Texture quality</string>
-    <string name="opt_lowtextures_summary">Reduce overall quality of game textures. If disabled, osu!droid will use HD-quality textures.</string>
+    <string name="opt_lowtextures_title">Reduce texture quality</string>
+    <string name="opt_lowtextures_summary">Reduce the overall quality of game textures. If disabled, osu!droid will use HD textures.</string>
 
     <string name="opt_nativeplayer_title">Use built-in player</string>
-    <string name="opt_nativeplayer_summary">Use built-in player for more accurate timing (doesn\'t support .ogg files)</string>
+    <string name="opt_nativeplayer_summary">Use the built-in player for more accurate timing (doesn\'t support .ogg files)</string>
 
     <string name="opt_metronome_switch_title">Metronome switch</string>
-    <string name="opt_metronome_switch_summary">Enable metronome sound effect (only Nightcore mod)</string>
+    <string name="opt_metronome_switch_summary">Select when to enable the metronome</string>
 
     <string name="opt_vbroffset_title">VBR offset</string>
     <string name="opt_vbroffset_summary">Offset for mp3\'s encoded with variable bitrate (built-in player only)</string>
 
     <string name="opt_sliderborders_title">Slider borders</string>
-    <string name="opt_sliderborders_summary">Draw borders along slider tracks. Disable for better performance</string>
+    <string name="opt_sliderborders_summary">Draw borders along slider bodies. Disable for better performance.</string>
 
     <string name="opt_complexanimations_title">Complex effects</string>
-    <string name="opt_complexanimations_summary">Enable advanced graphical effects (eg. snaking sliders). Disable for better performance</string>
+    <string name="opt_complexanimations_summary">Enable advanced graphical effects (eg. snaking sliders). Disable for better performance.</string>
 
 
     <string name="opt_other_title">Miscellaneous</string>
@@ -156,26 +156,26 @@
     <string name="opt_oggoffset_summary">Additional offset for songs in .ogg format</string>
 
     <string name="opt_pauseoffset_title">Pause offset</string>
-    <string name="opt_pauseoffset_summary">Offset added every time you resume paused game</string>
+    <string name="opt_pauseoffset_summary">Offset added for every time you resume a paused game</string>
 
     <string name="opt_musicpreview_title">Preview music</string>
-    <string name="opt_musicpreview_summary">Play music when you select a beatmap</string>
+    <string name="opt_musicpreview_summary">Play a preview of the BGM when you select a beatmap</string>
 
-    <string name="opt_playername_title">Player name</string>
-    <string name="opt_playername_summary">Name of the local player</string>
+    <string name="opt_playername_title">Offline player name</string>
+    <string name="opt_playername_summary">Name of the player locally</string>
 
     <string name="opt_showcursor_title">Cursor</string>
-    <string name="opt_showcursor_summary">Show cursor under fingers during gameplay</string>
+    <string name="opt_showcursor_summary">Show cursor under inputs during gameplay</string>
 
 
-    <string name="opt_demoSpline_title">Demo Spline</string>
-    <string name="opt_demoSpline_summary">Use another spline algorithm for sliders. (experimental, may cause some unexpected problems.)</string>
+    <string name="opt_demoSpline_title">Bézier slider drawing</string>
+    <string name="opt_demoSpline_summary">Use a more modern algorithm for drawing sliders, make sliders closer to original osu!</string>
 
     <string name="opt_clearprops_title">Map-specific data</string>
-    <string name="opt_clearprops_summary">Forced clear of all map-specific data (eg. per-map offsets)</string>
+    <string name="opt_clearprops_summary">Force-clear all map-specific data (eg. per-map offsets)</string>
 
     <string name="opt_online">Online</string>
-    <string name="opt_online_title">Show online options</string>
+    <string name="opt_online_title">Show online features</string>
     <string name="opt_online_summary"></string>
 
     <string name="opt_stayonline_title">Server Connection</string>
@@ -190,15 +190,15 @@
     <string name="opt_register_title">Register</string>
     <string name="opt_register_summary">Register a new account (You are allowed to create only one account per device)</string>
 
-    <string name="opt_loadavatar_title">Load Avatar</string>
-    <string name="opt_loadavatar_summary">Load without WiFi connection.</string>
+    <string name="opt_loadavatar_title">Load avatar with mobile data</string>
+    <string name="opt_loadavatar_summary">Load without WiFi connection</string>
 
 
     <string name="opt_error_meter_display_title">Hit error meter</string>
-    <string name="opt_error_meter_display_summary">Display hit error meter</string>
+    <string name="opt_error_meter_display_summary">Display the hit error meter</string>
 
     <string name="opt_spinner_style_title">Spinner style</string>
-    <string name="opt_spinner_style_summary">Change the spinner style</string>
+    <string name="opt_spinner_style_summary">Change the style of the spinner</string>
 
     <string name="opt_combo_burst_title">Combo Burst</string>
     <string name="opt_combo_burst_summary">Toggle combo burst on/off</string>
@@ -209,16 +209,16 @@
     <string name="opt_advanced_summary"></string>
 
     <string name="opt_corepath_title">Main directory</string>
-    <string name="opt_corepath_summary">osu!droid main directory</string>
+    <string name="opt_corepath_summary">osu!droid\'s main directory</string>
 
     <string name="opt_lowdelay_title">Input delay</string>
-    <string name="opt_lowdelay_summary">Reduces input delay. Disable it if you feel uncomfortable.</string>
+    <string name="opt_lowdelay_summary">Reduces input delay. Disable it if you feel uncomfortable playing with it.</string>
 
-    <string name="opt_fix_frame_offset_title">Fix a random offset.</string>
-    <string name="opt_fix_frame_offset_summary">Try to fix the offset between input time and frame time.</string>
+    <string name="opt_fix_frame_offset_title">Fix random offsets</string>
+    <string name="opt_fix_frame_offset_summary">Fix the offset between input and response if there is</string>
     
-    <string name="opt_remove_sliderlock_spinnerlock_title">Remove slider lock and spinner lock (unrank)</string>
-    <string name="opt_remove_sliderlock_spinnerlock_summary">Try to remove slider lock and spinner lock. 2b style is playable now.</string>
+    <string name="opt_remove_sliderlock_spinnerlock_title">Remove slider lock and spinner lock (unranked)</string>
+    <string name="opt_remove_sliderlock_spinnerlock_summary">2B maps will be playable with this enabled. Doubletapping will also be possible.</string>
 
     <string name="opt_enable_extension_title">Enable extension</string>
 
@@ -230,7 +230,7 @@
 
     <string name="opt_savereplays_title">Replays</string>
 
-    <string name="opt_savereplays_summary">Save replays for local records</string>
+    <string name="opt_savereplays_summary">Save replays for local scores</string>
 
     <string name="opt_bursts_title">Burst effects</string>
     <string name="opt_bursts_summary">Show burst effects when hitting circles or sliders</string>
@@ -242,10 +242,10 @@
     <string name="opt_dither_summary">User hardware dither (picture processing)</string>
 
     <string name="opt_particles_title">Particle effects</string>
-    <string name="opt_particles_summary">Show particle-based effects like cursor trail</string>
+    <string name="opt_particles_summary">Show particle-based visual effects (eg. cursor trail)</string>
 	
-	<string name="opt_long_trail_title">Long cursor trail</string>
-    <string name="opt_long_trail_summary">Show longer cursor trail, if Particle effects is on</string>
+    <string name="opt_long_trail_title">Long cursor trail</string>
+    <string name="opt_long_trail_summary">Show a longer cursor trail, if Particle effects is turned on</string>
 
     <string name="opt_bgbrightness_title">Background brightness</string>
     <string name="opt_bgbrightness_summary">Change the brightness of the background image</string>
@@ -253,9 +253,9 @@
     <string name="opt_hide_navibar_title">Navigation Bar</string>
     <string name="opt_hide_navibar_summary">Hide the navigation bar while playing</string>
 
-    <string name="opt_enable_pp_title">PerformancePoint System(PP)</string>
+    <string name="opt_enable_pp_title">Performance Point System (PP)</string>
     <string name="opt_enable_pp_summary">A simple offline pp system. Just for fun :)</string>
-    <string name="opt_clear_pp_title">Reset Performance Points(PP)</string>
+    <string name="opt_clear_pp_title">Reset Performance Points (PP)</string>
     <string name="opt_clear_pp_summary"></string>
 
     <string name="opt_combo_colors_title">Combo Colors</string>
@@ -267,47 +267,47 @@
     <string name="opt_update_title">Check for updates</string>
     <string name="opt_update_summary">Check for available updates</string>
 
-    <string name="force_romanized">Force romanized metadata</string>
-    <string name="force_romanized_summary">Force using only roman character for metadata, in case titles in japanese or chinese are unreadable</string>
+    <string name="force_romanized">Force-display romanized metadata</string>
+    <string name="force_romanized_summary">Only use roman characters for metadata, when titles in japanese or chinese are unreadable</string>
 
     <string name="opt_cursor_size">Cursor Size</string>
     <string name="opt_cursor_size_summary">Adjust cursor size (25 - 300, default 100)</string>
 
-    <string name="opt_show_first_approach_circle_title">Force show first approach circle</string>
-    <string name="opt_show_first_approach_circle_summary">Do not hide the first approach circle in hidden mods</string>
+    <string name="opt_show_first_approach_circle_title">Force-show first approach circle</string>
+    <string name="opt_show_first_approach_circle_summary">Show the approach circle for the first object of maps played with the Hidden mod</string>
 
     <string name="opt_apikey_title">[Beta] osu!ppy API Key</string>
-    <string name="opt_apikey_summary">Uses osu!ppy API to get beatmaps\' information. &#xD;If key is invalid, uses bloodcat instead (might be outdated/bad connection)</string>
+    <string name="opt_apikey_summary">Uses osu!ppy API to get beatmaps\' information.</string>
 
-    <string name="opt_show_scoreboard_summary">Show scoreboard of selected beatmap during game</string>
+    <string name="opt_show_scoreboard_summary">Show the scoreboard of the selected map during gameplay</string>
     <string name="opt_show_scoreboard_title">Show scoreboard</string>
 
     <string name="opt_skinpath_title">Select skin</string>
-    <string name="opt_skinpath_summary">Select skin from top skin directory</string>
+    <string name="opt_skinpath_summary">Select a skin from the skin directory</string>
 
     <string name="opt_skin_top_path_title">Skin directory</string>
     <string name="opt_skin_top_path_summary">Path to directory containing skin files. (default: /sdcard/osu!droid/Skin)</string>
 
-    <string name="opt_enableStoryboard_summary">Your phone will be very hot!</string>
+    <string name="opt_enableStoryboard_summary">Warning: Your device might overheat!</string>
     <string name="opt_enableStoryboard_title">Enable Storyboard</string>
 
     <string name="opt_scandownload_summary">Scan /Download directory for new beatmaps</string>
     <string name="opt_scandownload_title">Scan Download</string>
 
-    <string name="opt_superSlider_title">Super Slider</string>
-    <string name="opt_superSlider_summary">Perfect shape slider!</string>
+    <string name="opt_superSlider_title">Super Sliders</string>
+    <string name="opt_superSlider_summary">Enable this for perfectly shaped sliders!</string>
 	
-    <string name="opt_changespeed_title">Speed Modify</string>
+    <string name="opt_changespeed_title">Speed Modification</string>
     <string name="opt_forcear_title">Force AR</string>
-    <string name="opt_enablenc_whenspeedchange_title">Enable pitch shift in speed modify</string>
-    <string name="opt_enablespeedchange_title">Enable speed modify</string>
+    <string name="opt_enablenc_whenspeedchange_title">Enable pitch-shifting with speed modification</string>
+    <string name="opt_enablespeedchange_title">Enable speed modification</string>
     <string name="opt_enableforcear_title">Enable force AR</string>
 	
-	<string name="opt_calculate_slider_path_in_game_start_title">Calculate sliderpaths in game start</string>
-	<string name="opt_calculate_slider_path_in_game_start_summary">Increases performance in beatmaps where complex sliders are present, but increases beatmap load time</string>
+    <string name="opt_calculate_slider_path_in_game_start_title">Pre-calculate sliderpaths</string>
+    <string name="opt_calculate_slider_path_in_game_start_summary">Fixes lag spikes in beatmaps with complex sliders. Slightly increases loading time.</string>
 
-    <string name="opt_display_score_pp_title">Display PP in score</string>
-    <string name="opt_display_score_pp_summary">Displays PP value in score result screen</string>
+    <string name="opt_display_score_pp_title">Displays PP in score</string>
+    <string name="opt_display_score_pp_summary">Display PP values on the result screen</string>
 
     <string name="opt_hide_replay_marquee_title">Hide replay marquee</string>
     <string name="opt_hide_replay_marquee_summary">Hide the scrolling text when watching replays</string>
@@ -316,5 +316,5 @@
     <string name="opt_setplayfield_summary">Change the size of the playfield</string>
 
     <string name="opt_shrink_playfield_downwards_title">Shrink playfield downwards</string>
-    <string name="opt_shrink_playfield_downwards_summary">Shrink playfield downwards</string>
+    <string name="opt_shrink_playfield_downwards_summary">Position the playfield to the bottom of the screen</string>
 </resources>
